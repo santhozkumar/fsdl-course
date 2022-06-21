@@ -1,22 +1,23 @@
 ### Requirements Check 
 
-##### Clone the FSDL course repo<br />
-!git clone https://github.com/full-stack-deep-learning/fsdl-text-recognizer-2021-labs<br />
-%cd fsdl-text-recognizer-2021-labs<br />  
+##### Clone the FSDL course repo and this repo<br />
+!git clone -q https://github.com/full-stack-deep-learning/fsdl-text-recognizer-2021-labs<br />
+!git clone -q https://github.com/santhozkumar/fsdl-course<br />
 
-#### "Minimum Requirements given by course"<br />
-!pip3 install boltons wandb pytorch_lightning==1.1.4 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 torchtext==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html<br />
-%env PYTHONPATH=.:$PYTHONPATH<br />  
 
-#### OR use below <br />
-!pip install -q boltons wandb pytorch_lightning torchmetrics toml<br />
-!pip install -q torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 torchtext==0.8.1<br />  
+#### Install the requirements.txt file based on gpu/cpu<br />
+#GPU<br />
+#!pip install -q -r fsdl-course/gpu-requirements.txt -f https://download.pytorch.org/whl/torch_stable.html<br />
 
-#### Check for the above with below commands in colab<br />
+#Cpu<br />
+!pip install -q -r fsdl-course/cpu-requirements.txt -f https://download.pytorch.org/whl/torch_stable.html<br />
 
-!pip list | grep torch<br />
-!pip list | grep -e boltons -e wandb -e pytorch_lightning -e torch<br />
-!pip install -q boltons wandb pytorch_lightning<br />  
+
+%cd fsdl-text-recognizer-2021-labs<br />
+%env PYTHONPATH=.:$PYTHONPATH<br />
+%cd lab2<br />
+
+
 
 
 #### To run a sample experiment<br />
