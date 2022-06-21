@@ -1,8 +1,8 @@
 ### Requirements Check 
 
-##### Clone the FSDL course repo
-!git clone https://github.com/full-stack-deep-learning/fsdl-text-recognizer-2021-labs
-%cd fsdl-text-recognizer-2021-labs
+##### Clone the FSDL course repo<br />
+!git clone https://github.com/full-stack-deep-learning/fsdl-text-recognizer-2021-labs<br />
+%cd fsdl-text-recognizer-2021-labs<br />
 
 #### "Minimum Requirements given by course"
 !pip3 install boltons wandb pytorch_lightning==1.1.4 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 torchtext==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
