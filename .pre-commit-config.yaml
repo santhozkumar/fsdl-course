@@ -19,3 +19,8 @@ repos:
     hooks:
     -   id: black
     -   id: black-jupyter
+-   repo: https://github.com/PyCQA/isort
+    rev: 5.10.1
+    hooks:
+    -   id: isort
+        name: format imports
