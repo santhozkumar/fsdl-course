@@ -28,4 +28,10 @@ class packageVersion:
         for arg in args:
             print(arg.__version__)
 
-ver = packageVersion()
+#Sleeper util for colab
+import time
+def sleep_jupyter(x = 100):
+    time.sleep(x)
+    print("yes")
+while True:
+    sleep_jupyter()
